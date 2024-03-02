@@ -49,9 +49,9 @@ function getRandomIntInclusive(min, max) {
                 finalPrice = basicPrice + priceAdjasment;
                 
   }
-//   console.log("age", age)
-//   console.log("odo", odo)
-//   console.log("hsaAC", !!hasAC)
-//   console.log("hasAirBag", !!hasAirBag)
-//   console.log("isElectric", !!isElectik)
+  console.log("age", age)
+  console.log("odo", odo)
+  console.log("hsaAC", !!hasAC)
+  console.log("hasAirBag", !!hasAirBag)
+  console.log("isElectric", !!isElectik)
   console.log("finalPrice is", chalk.bold.bgRed(finalPrice));
