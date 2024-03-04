@@ -6,13 +6,13 @@ let inputStr = 'this is  a string for our task';
 // console.log(changesStrWithRepalace);
 let changesStr = '';
 
-for (let i = 0; i < inputStr.length; i = i + 1){      
-   if (inputStr[i] == 'i' || inputStr[i] == 'a' || inputStr[i] == 'e' || inputStr[i] == 'i' || inputStr[i] == 'o' || inputStr[i] == 'u' || inputStr[i] == 'y'){    
-                        changesStr += '*';
-                    //    console.log('+')         
-  }
-   else  changesStr += inputStr[i];
-      // console.log(inputStr[i]);   
+for (let i = 0; i < inputStr.length; i = i + 1) {
+    if (inputStr[i] == 'i' || inputStr[i] == 'a' || inputStr[i] == 'e' || inputStr[i] == 'i' || inputStr[i] == 'o' || inputStr[i] == 'u' || inputStr[i] == 'y') {
+        changesStr += '*';
+
+    }
+    else changesStr += inputStr[i];
+
 };
 
 console.log(changesStr);
