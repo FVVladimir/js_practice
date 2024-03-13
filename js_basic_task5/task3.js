@@ -4,3 +4,5 @@ const arrSum = (arr) => {
 }
 
 console.log(arrSum([12,34,67,11,"j"]));
+
+export default arrSum;
