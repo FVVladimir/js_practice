@@ -3,7 +3,7 @@ const phone = {
     screeen: "5\"",
     memory: "5GB",
     call: function (){
-        console.log('please input namber')
+        console.log('please input number')
     },
     break: function (){
         console.log('call is over')
