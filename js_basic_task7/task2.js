@@ -11,7 +11,11 @@ const city = new Object();
 city.name = "blida";
 city.location = "alger";
 city.language = "arabic or french";
+city.wellcome = function() {
+      return `wellcome to ${this.name} this is beautifull place in ${this.location}`
+}
 
 
 console.log(building,building.info());
+console.log(city,city.wellcome());
 
