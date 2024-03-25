@@ -6,14 +6,10 @@ export  class Animal{
     }
 
     sayHallo(){
-          return `hallo my name is ${this.name}`
+          return `hallo my name is ${this.name}`;
     }
 
     run(){
-        return `${this.name} let is go to run`
+        return `${this.name} let is go to run`;
     }
-}
-
-const someNewAnimal = new Animal('yello','joe','dog');
-console.log(someNewAnimal.sayHallo());
-console.log(someNewAnimal.run());
+};
