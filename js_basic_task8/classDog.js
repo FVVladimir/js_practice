@@ -1,7 +1,7 @@
 import {Animal} from "./classAnimal.js";
 
 
-class Dog extends Animal {
+export class Dog extends Animal {
       constructor(weigth, age, breed,color, name, type){
           super(color, name, type);
             this.weigth = weigth,
@@ -13,16 +13,9 @@ class Dog extends Animal {
       }
       
       takeBall(){
-         return `${this.name} common let is play with ball`
+         return `${this.name} common let is play with ball`;
       }
       goSwim(){
-         return `${this.name} go to swim is there nice wether`
+         return `${this.name} go to swim is there nice wether`;
       }
-}
-
-
-const Pluto = new Dog('20','5','labrador','golden','mike','dog')
-console.log(Pluto);
-console.log(Pluto.run());
-console.log(Pluto.takeBall());
-console.log(Pluto.goSwim());
+};
