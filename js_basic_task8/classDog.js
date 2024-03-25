@@ -6,7 +6,7 @@ class Dog extends Animal {
           super(color, name, type);
             this.weigth = weigth,
             this.age = age,
-            this.breed = breed        
+            this.breed = breed,        
             this.color = color,
             this.name = name,
             this.type = type
@@ -16,7 +16,7 @@ class Dog extends Animal {
          return `${this.name} common let is play with ball`
       }
       goSwim(){
-         return `${this.name} go to swim is there nise wether`
+         return `${this.name} go to swim is there nice wether`
       }
 }
 
