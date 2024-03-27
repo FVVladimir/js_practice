@@ -1,3 +1,5 @@
 export function actionString(string){
-       console.log(string);
+     return  console.log(string.toUpperCase());
 }
+
+// actionString("holla");
