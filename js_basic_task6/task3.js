@@ -10,7 +10,7 @@
 
 function calculate (oper1, oper2, action) {
 
-        //   action.toString();
+        console.log(arguments)
             
           switch(action) {
 
@@ -34,9 +34,9 @@ function calculate (oper1, oper2, action) {
            }           
 }
 
-console.log(calculate(3,5,'+'));
-console.log(calculate(3,5,'-'));
-console.log(calculate(5,3,'-'));
-console.log(calculate(14,2,'/'));
-console.log(calculate(3,0,'/'))
-console.log(calculate(3,6,'*'))
+// console.log(calculate(3,5,'+'));
+// console.log(calculate(3,5,'-'));
+// console.log(calculate(5,3,'-'));
+// console.log(calculate(14,2,'/'));
+// console.log(calculate(3,0,'/'))
+// console.log(calculate(3,6,'*'))
